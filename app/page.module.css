@@ -1,0 +1,148 @@
+.homepage_main_wrapper_bg {
+    background-image: url('/bg2.png');
+    background-repeat: no-repeat;
+    /* background-position: 85% 100px; */
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.homepage_main_wrapper {
+    /* background-image: linear-gradient(45deg, black, #304, black); */
+    display: block;
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    backdrop-filter: blur(200px);
+}
+.info_wrapper {
+    margin: 100px;
+    /* background-color: red; */
+    display: inline-block;
+    /* width: 750px; */
+    
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 60px;  
+    line-height: 60px; 
+    margin-bottom: 50px;
+    width: 500px;
+    font-weight: bold;
+    /* text-align: center; */
+    /* background-color: red; */
+}
+
+.description {
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: 100px;
+    width: 500px;
+    /* background: #f00; */
+}
+
+.myimg_wrapper {
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 100px;
+    left: 830px;
+    border-radius: 1000px;
+    /* background-color: #f00; */
+    /* border: 1px solid #fff; */
+    box-shadow: 0 0 100px rgba(255,255,255,0.1);
+    background-image: url('/me.png');
+    overflow: hidden;
+    /* z-index: 10; */
+}
+
+.myimg {
+
+}
+
+.resume_button {
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.resume_button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.py_logo {
+    animation: py_logo 5.5s ease-in-out infinite;
+}
+
+.js_logo {
+    animation: js_logo 6.5s ease-in-out infinite;
+}
+
+.java_logo {
+    animation: java_logo 7s ease-in-out infinite;
+}
+
+.ts_logo {
+    animation: ts_logo 6s ease-in-out infinite;
+}
+
+.nodejs_logo {
+    animation: nodejs_logo 6.8s ease-in-out infinite;
+}
+
+@keyframes py_logo {
+    0%, 100% {
+        transform: translateY(0) rotate(-20);
+    }
+    50% {
+        transform: translateY(-20px) rotate(-5deg);
+    }
+}
+@keyframes js_logo {
+    0%, 100% {
+        transform: translateY(0) rotate(-20);
+    }
+    50% {
+        transform: translateY(-20px) rotate(0deg);
+    }
+}
+@keyframes java_logo {
+    0%, 100% {
+        transform: translateY(0) rotate(20);
+    }
+    50% {
+        transform: translateY(-20px) rotate(15deg);
+    }
+}
+@keyframes ts_logo {
+    0%, 100% {
+        transform: translateY(0) rotate(5);
+    }
+    50% {
+        transform: translateY(-20px) rotate(15deg);
+    }
+}
+@keyframes nodejs_logo {
+    0%, 100% {
+        transform: translateY(0) rotate(0);
+    }
+    50% {
+        transform: translateY(-10px) rotate(0deg);
+    }
+}
+
