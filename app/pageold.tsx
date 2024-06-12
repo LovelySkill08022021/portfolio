@@ -6,13 +6,14 @@ import ts_logo from '@/public/ts-logo.png'
 import js_logo from '@/public/js-logo.png'
 import java_logo from '@/public/java-logo.png'
 import nodejs_logo from '@/public/nodejs-logo.png'
+import Projects from './(main)/home/components/Projects'
 
 export default function Home() {
     return (
         <>
-            <div className={styles.homepage_main_wrapper_bg}></div>
-            <div className={styles.homepage_main_wrapper}>
-                <div className={styles.info_wrapper}>
+            {/* <div className={styles.homepage_main_wrapper_bg}></div> */}
+            <div className={styles.homepage_main_wrapper + ' md:block'}>
+                <div className={styles.info_wrapper + ' md:block'}>
                     <div className={styles.title}>
                         FULL-STACK SOFTWARE DEVELOPER
                     </div>
@@ -29,8 +30,10 @@ export default function Home() {
                         Contact me @ <b>markjustinecudapas@gmail.com</b>
                     </div>
                 </div>
-                <div className={styles.myimg_wrapper}>
-                    <Image className={styles.myimg} alt="my" src={myimg} />
+                <div className={styles.myimages_n_logo_wrapper}>
+                    <div className={styles.myimg_wrapper}>
+                        <Image className={styles.myimg} alt="my" src={myimg} />
+                    </div>
                 </div>
                 <Image alt="my" className={styles.nodejs_logo} style={
                     {
@@ -83,6 +86,7 @@ export default function Home() {
                     }
                 } src={java_logo} />
             </div>
+            <Projects />
         </>
     );
 }

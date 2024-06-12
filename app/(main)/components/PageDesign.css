@@ -1,0 +1,83 @@
+.page-design-wrapper {
+    /* background: #f00; */
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.desktop {
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    background-color: rgba(255, 0, 187, 0.2);
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px rgba(255, 0, 187, 0.2); */
+    /* transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(50px) translateZ(0px); */
+    transform: scale(0);
+    transform-origin: 0% 0%;
+    animation: desktop_show 1s forwards;
+    animation-delay: .6s;
+}
+.tablet {
+    display: block;
+    position: absolute;
+    height: 210px;
+    background-color: rgba(0, 102, 255, 0.2);
+    width: 200px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px rgba(0, 102, 255, 0.2); */
+    /* transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(150px) translateZ(30px); */
+    transform: scale(0);
+    transform-origin: 0% 0%;
+    animation: tablet_show 2s forwards;
+    animation-delay: .8s;
+}
+.phone {
+    display: block;
+    position: absolute;
+    height: 170px;
+    background-color: rgba(255, 242, 0, 0.2);
+    width: 60px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px rgba(255, 242, 0, 0.2); */
+    /* transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(190px) translateZ(50px); */
+    transform: scale(0);
+    transform-origin: 0% 0%;
+    animation: phone_show 3s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes desktop_show {
+    0% {
+        transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(50px) translateZ(1000px);
+    }
+        
+    100% {
+        transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(50px) translateZ(0px);
+
+    }
+}
+@keyframes tablet_show {
+    0% {
+        transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(150px) translateZ(1000px);
+    }
+        
+    100% {
+        transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(150px) translateZ(30px);
+
+    }
+}
+@keyframes phone_show {
+    0% {
+        transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(190px) translateZ(1000px);
+    }
+        
+    100% {
+        transform: perspective(1100px) rotateZ(5deg) rotateY(-50deg) rotateX(62deg) translateX(660px) translateY(190px) translateZ(50px);
+
+    }
+}
