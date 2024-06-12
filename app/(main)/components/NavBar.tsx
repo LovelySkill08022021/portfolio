@@ -7,7 +7,7 @@ export default function NavBar(){
             <div className="nav-bar">
                 <div className='nav-bar-logo'>MJC</div>
                 <div className='nav-bar-button-container'>
-                    <Link href='/home'>
+                    <Link href='/'>
                         <button className="nav-bar-button">Home</button>
                     </Link>
                     <Link href='/projects'>

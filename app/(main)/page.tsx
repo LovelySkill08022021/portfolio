@@ -6,7 +6,7 @@ import ts_logo from '@/public/ts-logo.png'
 import js_logo from '@/public/js-logo.png'
 import java_logo from '@/public/java-logo.png'
 import nodejs_logo from '@/public/nodejs-logo.png'
-import NavBar from '../components/NavBar'
+import NavBar from './components/NavBar'
 
 export default function Home() {
     return (
