@@ -56,8 +56,9 @@
 .title {
     font-size: 30px;
     margin-bottom: 30px;
+    font-weight: 300;
     /* background: #000; */
-    font-family: nunito-light;
+    /* font-family: nunito-light; */
 }
 
 
@@ -67,14 +68,14 @@
     line-height: 60px; 
     margin-bottom: 50px;
     width: 100%;
-    /* font-weight: bold; */
-    font-family: nunito-black;
+    font-weight: 900;
+    /* font-family: nunito-black; */
     /* text-align: center; */
     /* background-color: red; */
 }
 
 .description {
-    font-weight: 300;
+    
     font-size: 20px;
     /* margin-right: 100px; */
     width: 100%;
@@ -130,10 +131,10 @@
 }
 
 .resume_button {
-    background-color: transparent;
+    background-color: var(--system-blue);
     padding: 10px 30px;
-    border: 2px solid #333;
-    /* color: #fff; */
+    /* border: 2px solid #333; */
+    color: #fff;
     margin-right: 20px;
     font-weight: bold;
     transition: .2s;

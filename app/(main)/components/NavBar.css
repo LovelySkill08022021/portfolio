@@ -8,9 +8,10 @@
 
 .nav-bar-logo {
     display: inline-block;
-    font-family: nunito-black;
+    /* font-family: nunito-black; */
     padding-right: 50px;
-    color: #333;
+    font-weight: 900;
+    color: var(--system-pink);
 }
 .nav-bar-button-container {
     display: inline-block;
@@ -19,5 +20,5 @@
 .nav-bar-button {    
     color: #333;
     padding: 30px 20px;
-    font-family: nunito-bold;
+    font-weight: bold;
 }

@@ -6,31 +6,31 @@
 
 @font-face {
 	font-family: roboto-regular;
-	src: url(/font/roboto/roboto-regular.ttf);
+	src: url('/font/roboto/roboto-regular.ttf');
 }
 @font-face {
 	font-family: roboto-thin;
-	src: url(/font/roboto/roboto-thin.ttf);
+	src: url('/font/roboto/roboto-thin.ttf');
 }
 @font-face {
 	font-family: roboto-bold;
-	src: url(/font/roboto/roboto-bold.ttf);
+	src: url('/font/roboto/roboto-bold.ttf');
 }
 @font-face {
 	font-family: nunito-light;
-	src: url(/font/nunito/nunito-light.ttf);
+	src: url('/font/nunito/nunito-light.ttf');
 }
 @font-face {
 	font-family: nunito-regular;
-	src: url(/font/nunito/nunito-regular.ttf);
+	src: url('/font/nunito/nunito-regular.ttf');
 }
 @font-face {
 	font-family: nunito-bold;
-	src: url(/font/nunito/nunito-bold.ttf);
+	src: url('/font/nunito/nunito-bold.ttf');
 }
 @font-face {
 	font-family: nunito-black;
-	src: url(/font/nunito/nunito-black.ttf);
+	src: url('/font/nunito/nunito-black.ttf');
 }
 
 /* 
@@ -63,13 +63,18 @@ body {
     text-wrap: balance;
   }
 } */
-
+:root {
+  --system-blue: rgb(0, 102, 255);
+  --system-pink: rgb(255, 0, 187);
+  --system-yellow: rgb(255, 242, 0);
+}
 body {
-  font-family: nunito-regular !important;
+  /* font-family: nunito-regular !important; */
   /* background-image: url('/rr.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgb(45, 87, 227);
   height: 100vh; */
+  font-weight: 500;
 }

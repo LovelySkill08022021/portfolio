@@ -21,10 +21,7 @@ export default function Home() {
                         <div className={styles.name}>
                             {"👋 Hello there,"}
                             <br />
-                            {"It's "}
-                            <span className="text-blue-600">
-                                {"Mark Justine Cudapas"}
-                            </span>
+                            {"It's Mark Justine Cudapas"}
                         </div>
                         <div className={styles.description}>
                             {"As a Software Engineer, my focus is on transforming your ideas into efficient, scalable, and user-friendly software solutions. Explore my portfolio to discover the value I bring to your projects."}
