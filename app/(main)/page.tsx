@@ -21,14 +21,24 @@ export default function Home() {
                         <div className={styles.name}>
                             {"👋 Hello there,"}
                             <br />
-                            {"It's Mark Justine Cudapas"}
+                            {"It's "}
+                            <span className="text-blue-600">
+                                {"Mark Justine Cudapas"}
+                            </span>
                         </div>
                         <div className={styles.description}>
                             {"As a Software Engineer, my focus is on transforming your ideas into efficient, scalable, and user-friendly software solutions. Explore my portfolio to discover the value I bring to your projects."}
                         </div>
                         <div className="mt-5">
-                            <button className={styles.resume_button}>Resume</button>
-                            Contact me @ <b>markjustinecudapas@gmail.com</b>
+                            <div className="block w-full md:flex">
+                                <div>
+                                    <button className={styles.resume_button}>Resume</button>
+
+                                </div>
+                                <div>
+                                    Contact me @ <b className="text-blue-500">markjustinecudapas@gmail.com</b>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="w-full flex items-center justify-center lg:justify-start">
