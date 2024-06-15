@@ -1,9 +1,12 @@
 .nav-bar {
     /* color: white !important; */
     /* background: red; */
-    padding-left: 112px;
+    /* padding-left: 112px; */
     top: 0px;
     position: sticky;
+    background-color: rgba(255, 255, 255, .8);
+    backdrop-filter: blur(7px);
+    transition: .2s;
 }
 
 .nav-bar-logo {
@@ -22,3 +25,41 @@
     padding: 30px 20px;
     font-weight: bold;
 }
+
+.top-control {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.phone-nav-bar {
+    margin-left: 100%;
+    transition: .2s;
+    border: 2px solid var(--system-yellow);
+    border-radius: 10px;
+}
+/* @media (max-width: 640px) {
+    .nav-bar {
+        background-color: #fff;
+        position: fixed;
+        height: 100%;
+        width: calc(100vw * .80);
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        margin-left: 100%;
+    }
+
+    .nav-bar-button-container {
+        width: 100%;
+    }
+
+    .nav-bar-button-link {
+        display: block;
+    }
+    .nav-bar-button{
+        background-color: blue;
+        width: 100%;
+        padding: 10px 20px;
+        text-align: left;
+    }
+} */

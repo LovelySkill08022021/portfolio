@@ -1,0 +1,45 @@
+.project {
+    background-color: #fff;
+    /* height: auto; */
+    /* width: 90%; */
+    margin: 0px 0px 50px 0px;
+    border-top: 5px solid var(--system-pink);
+    /* border-bottom: 5px solid var(--system-blue);
+    border-right: 5px solid var(--system-yellow);
+    border-left: 5px solid var(--system-yellow); */
+    /* border-radius: 10px; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.project-info {
+    /* background-color: red; */
+    /* height: 40%; */
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    padding: 30px;
+    /* background-image: linear-gradient(#fff, rgba(255,255,255, 0.9), rgba(255,255,255, 0.6), transparent); */
+}
+
+.project-image {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--system-blue);
+}
+
+@media (max-width: 600px) {
+    .project {
+        /* height: 300px; */
+    }
+    .project-info {
+        padding: 20px;
+    }
+}

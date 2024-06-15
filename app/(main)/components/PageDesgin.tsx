@@ -1,3 +1,5 @@
+'use client';
+
 import './PageDesign.css';
 
 export default function PageDesign(){

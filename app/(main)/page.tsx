@@ -14,7 +14,7 @@ export default function Home() {
             {/* <div className={styles.homepage_main_wrapper_bg}></div> */}
             <div>
                 <div className="block w-full lg:flex ">
-                    <div className="w-full p-10 lg:px-28 lg:pt-12">
+                    <div className="w-full py-10 lg:pt-12">
                         <div className={styles.title}>
                             FULL-STACK SOFTWARE DEVELOPER
                         </div>
