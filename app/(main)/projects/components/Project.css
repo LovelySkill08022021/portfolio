@@ -35,6 +35,16 @@
     color: var(--system-blue);
 }
 
+.project-description {
+    /* background-color: red; */
+    /* height: 40px; */
+    line-height: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* text-align: justify; */
+}
+
 @media (max-width: 600px) {
     .project {
         /* height: 300px; */
