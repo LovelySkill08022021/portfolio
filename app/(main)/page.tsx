@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="block w-full lg:flex ">
                     <div className="w-full py-10 lg:pt-12">
                         <div className={styles.title}>
-                            FULL-STACK SOFTWARE DEVELOPER
+                            FULL-STACK WEB DEVELOPER
                         </div>
                         <div className={styles.name}>
                             {"👋 Hello there,"}
@@ -29,8 +29,9 @@ export default function Home() {
                         <div className="mt-5">
                             <div className="block w-full md:flex">
                                 <div>
-                                    <button className={styles.resume_button}>Resume</button>
-
+                                    <a href="resume/resume.png" download>
+                                        <button className={styles.resume_button}>Download Resume</button>
+                                    </a>
                                 </div>
                                 <div>
                                     Contact me @ <b className="text-blue-500">markjustinecudapas@gmail.com</b>
