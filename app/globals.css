@@ -64,18 +64,18 @@ body {
   }
 } */
 :root {
-  --system-blue: rgb(0, 102, 255);
-  --system-pink: rgb(255, 0, 187);
-  --system-yellow: rgb(255, 242, 0);
+  --system-blue: #0066ff;
+  --system-pink: #ff00bb;
+  --system-yellow: #fff200;
 }
 body {
   /* font-family: nunito-regular !important; */
-  /* background-image: url('/rr.png');
+  background-image: url('/rect_light.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgb(45, 87, 227);
-  height: 100vh; */
+  background-attachment: fixed;
+  /* height: 100vh; */
   font-weight: 500;
 }
 

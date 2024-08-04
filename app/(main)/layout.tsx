@@ -8,7 +8,7 @@ export default function MainLayout({children}: {children: React.ReactNode}){
             <NavBar />
             <div className="px-5 lg:px-40">
                 {children}
-                <PageDesign />
+                {/* <PageDesign /> */}
             </div>
         </>
     )
