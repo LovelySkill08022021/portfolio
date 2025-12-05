@@ -1,12 +1,6 @@
+import myimg from "@/public/vector_blue.png";
 import Image from "next/image";
-import styles from './page.module.css'
-import myimg from '@/public/me.png'
-import py_logo from '@/public/py-logo.png'
-import ts_logo from '@/public/ts-logo.png'
-import js_logo from '@/public/js-logo.png'
-import java_logo from '@/public/java-logo.png'
-import nodejs_logo from '@/public/nodejs-logo.png'
-import NavBar from './components/NavBar'
+import styles from "./page.module.css";
 
 export default function Home() {
     return (
@@ -24,24 +18,37 @@ export default function Home() {
                             {"It's Mark Justine Cudapas"}
                         </div>
                         <div className={styles.description}>
-                            {"As a Software Engineer, my focus is on transforming your ideas into efficient, scalable, and user-friendly software solutions. Explore my portfolio to discover the value I bring to your projects."}
+                            {
+                                "As a Software Engineer, my focus is on transforming your ideas into efficient, scalable, and user-friendly software solutions. Explore my portfolio to discover the value I bring to your projects."
+                            }
                         </div>
                         <div className="mt-5">
                             <div className="block w-full md:flex">
                                 <div>
                                     <a href="resume/resume.png" download>
-                                        <button className={styles.resume_button}>Download Resume</button>
+                                        <button
+                                            className={styles.resume_button}
+                                        >
+                                            Download Resume
+                                        </button>
                                     </a>
                                 </div>
                                 <div>
-                                    Contact me @ <b className="text-blue-500">markjustinecudapas@gmail.com</b>
+                                    Contact me @{" "}
+                                    <b className="text-blue-500">
+                                        markjustinecudapas@gmail.com
+                                    </b>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="w-full flex items-center justify-center lg:justify-start">
                         <div className={styles.myimg_wrapper}>
-                            <Image className={styles.myimg} alt="my" src={myimg} />
+                            <Image
+                                className={styles.myimg}
+                                alt="my"
+                                src={myimg}
+                            />
                         </div>
                     </div>
                 </div>
